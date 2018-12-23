@@ -13,7 +13,7 @@ CREATE TABLE projects (
   end_date TEXT
 );
 
-CREATE TABLE pledge (
+CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
   amount INTEGER,
   user_id INTEGER,
